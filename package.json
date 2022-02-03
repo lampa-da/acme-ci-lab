@@ -1,0 +1,22 @@
+{
+  "name": "acme-movie-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:dev": "npm run test -- --watch",
+    "start:dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  },
+  "dependencies": {
+    "pg": "^8.7.1",
+    "sequelize": "^6.15.0"
+  }
+}
